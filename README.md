@@ -7,8 +7,13 @@ To filter the noise, linear regression is applied to the most linear part of the
 The output is the graphs and two text files with filtered noise.
 PS: these files are fictitious random data.
 
+![initial curve](https://github.com/amandaventurac/Python_Curve_Noise_reduction/blob/main/before_noise_reduction.png)
+
 
 Curve before noise reduction, the bottom of bifurcation is noise. The linear part of the curve will be used in linear regression:
 
+![linreg](https://github.com/amandaventurac/Python_Curve_Noise_reduction/blob/main/linear_model.png)
 
 The model is extrapolated to predict the right side of the curve, this prediction is used to filter the noise with small deviation criteria.
+![final](https://github.com/amandaventurac/Python_Curve_Noise_reduction/blob/main/filteres_curve.png)
+
