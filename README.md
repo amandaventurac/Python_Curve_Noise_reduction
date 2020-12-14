@@ -5,6 +5,7 @@ The script reads the input files (x = tempo_segundos.txt {if time> 0}, y = fluxo
 The bottom part of bifurcation is all noise. 
 To filter the noise, linear regression is applied to the most linear part of the curve, then the extrapolated model is used to filter the right side of the curve.
 The output is the graphs and two text files with filtered noise.
+PS: these files are fictitious random data.
 
 ![initial curve](https://github.com/amandaventurac/Python_Curve_Noise_reduction/blob/main/before_noise_reduction.png)
 
