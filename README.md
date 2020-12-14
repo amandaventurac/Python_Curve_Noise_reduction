@@ -17,3 +17,4 @@ Curve before noise reduction, the bottom of bifurcation is noise. The linear par
 The model is extrapolated to predict the right side of the curve, this prediction is used to filter the noise with small deviation criteria.
 
 ![final](https://github.com/amandaventurac/Python_Curve_Noise_reduction/blob/main/filteres_curve.png)
+
